@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_num"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:textColor="#222222"
+        android:layout_height="60dp"
+        android:hint="序号录入" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/et_id"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:textColor="#222222"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="ID录入" />
+
+
+    <EditText
+        android:inputType="numberSigned|numberDecimal"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:id="@+id/et_x"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="x坐标录入" />
+
+    <EditText
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="#222222"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:id="@+id/et_y"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="y坐标录入" />
+
+    <EditText
+        android:inputType="number"
+        android:textColor="#222222"
+
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:id="@+id/et_z"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="z坐标录入" />
+
+    <EditText
+        android:inputType="number"
+        android:textColor="#222222"
+
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:id="@+id/et_floor"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="楼层录入" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="60dp">
+
+        <Button
+            android:id="@+id/bt_confirm"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:text="确认修改" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
